@@ -1,0 +1,66 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.note-form {
+  background-color: #e0f7fa;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.note-form input,
+.note-form textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #b2ebf2;
+  border-radius: 5px;
+}
+
+.note-form button {
+  background-color: #b2ebf2;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.notes-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.note-item {
+  width: 90%;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note-item h3 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.note-item p {
+  margin: 5px 0;
+}
+
+.note-item button {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+}

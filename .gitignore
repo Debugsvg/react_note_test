@@ -1,7 +1,21 @@
+
+.DS_Store
+
+
+.git/
+
+
+.vscode/
+
+
 frontend/node_modules/
 
-# Ignorer les environnements virtuels Python
-backend/venv/
 
-# Ignorer les fichiers de configuration spécifiques à l'IDE
-.vscode/
+backend/.env/
+backend/.venv/
+
+
+backend/database.db
+
+
+*.log
