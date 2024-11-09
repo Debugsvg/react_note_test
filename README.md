@@ -60,11 +60,15 @@ Le serveur backend sera alors accessible sur http://localhost:5000.
 
 L'application React sera accessible sur http://localhost:3000.
 
+##Backend (backend/)
 
-### Points clés du format Markdown utilisé :
-- **Titres** : Utilisation de `#` pour les titres et sous-titres (H1, H2, H3).
-- **Code** : Utilisation de triple backticks \`\`\` pour les blocs de code et des backticks simples \` pour le code en ligne.
-- **Liens** : Utilisation de la syntaxe `[texte du lien](url)` pour créer des liens cliquables.
-- **Listes** : Listes à puces et numérotées pour organiser les sections.
+app.py : Contient la logique principale de l'application Flask, y compris la gestion des routes pour l'API.
+requirements.txt : Liste les dépendances nécessaires pour le backend Python.
+database.db : Base de données SQLite3 où les notes sont stockées.
 
-Cette structure rendra le README bien lisible sur GitHub et compréhensible pour d'autres développeurs ou utilisateurs souhaitant tester et contribuer à l'application.
+##Frontend (frontend/)
+src/ : Contient les fichiers sources pour React (composants, états, etc.).
+package.json : Contient les informations du projet React, ainsi que les scripts pour lancer l'application.
+Auteur
+
+##Développé par [Debugsvg]
