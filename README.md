@@ -60,13 +60,13 @@ Le serveur backend sera alors accessible sur http://localhost:5000.
 
 L'application React sera accessible sur http://localhost:3000.
 
-##Backend (backend/)
+## Backend (backend/)
 
 app.py : Contient la logique principale de l'application Flask, y compris la gestion des routes pour l'API.
 requirements.txt : Liste les dépendances nécessaires pour le backend Python.
 database.db : Base de données SQLite3 où les notes sont stockées.
 
-##Frontend (frontend/)
+## Frontend (frontend/)
 src/ : Contient les fichiers sources pour React (composants, états, etc.).
 package.json : Contient les informations du projet React, ainsi que les scripts pour lancer l'application.
 Auteur
