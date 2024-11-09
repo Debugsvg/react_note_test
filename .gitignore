@@ -1,0 +1,7 @@
+frontend/node_modules/
+
+# Ignorer les environnements virtuels Python
+backend/venv/
+
+# Ignorer les fichiers de configuration spécifiques à l'IDE
+.vscode/

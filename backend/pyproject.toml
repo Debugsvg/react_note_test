@@ -1,0 +1,37 @@
+[project]
+name = "test-react"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "fastapi",
+    "flask",
+    "requests",
+    "ultralytics",
+    "huggingface_hub",
+    "numpy",  
+    "Flask-CORS",  
+    "pydantic",
+    "werkzeug",
+    "markupsafe",
+    "click",
+    "blinker",
+    "jinja2",
+    "itsdangerous",
+    "typing_extensions",
+    "pydantic_core",
+    "annotated_types",
+    "markupsafe"
+]
+
+[project.optional-dependencies]
+testing = [
+    "pytest",
+    "pytest-flask"
+]
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
