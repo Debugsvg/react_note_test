@@ -71,4 +71,4 @@ src/ : Contient les fichiers sources pour React (composants, états, etc.).
 package.json : Contient les informations du projet React, ainsi que les scripts pour lancer l'application.
 Auteur
 
-##Développé par [Debugsvg]
+## Développé par [Debugsvg]
